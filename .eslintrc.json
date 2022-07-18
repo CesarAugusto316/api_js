@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 13,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "off",
+    "lines-between-class-members":"off", 
+    "class-methods-use-this": "off",
+    "no-unused-vars": "warn",
+    "no-multiple-empty-lines": "off"
+  }
+}
